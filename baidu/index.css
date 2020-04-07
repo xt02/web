@@ -1,0 +1,87 @@
+#nav{
+  position:relative;
+  height: 50px;
+}
+.head{
+  position: absolute;
+  width: 600px;;
+  right: 0;
+
+}
+.head>a{
+  position: relative;
+  margin-left: 18px;
+  color: black;
+  font-weight: bold;
+}
+.head>.span-login{
+  font-weight: normal;
+}
+.baidu-more{
+  background: #3385ff;
+  color: white;
+  display: inline-block;
+  width: 80px;
+  text-decoration: none;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
+/* 给第一个元素(块元素)添加margin-top,会在父元素上起作用,整体下移;
+解决:父元素添加边框/给父元素添加内边距0.1px; */
+#main{
+  margin-top: 100px;
+}
+.wrapper{
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper img{
+  width: 270px;
+  height: 129px;
+  background: orange;
+}
+.wrapper form{
+  height: 40px;
+}
+.span-search{
+  border: 1px solid gray;
+  border-right: none;
+  float: left;
+  height: 38px;
+}
+.span-search:focus{
+  outline: 10px solid red;
+}
+[type="text"]{
+  width: 500px;
+  height: 38px;
+  border: none;
+  padding: 0px 0px 0px 7px;
+  /* vertical-align: bottom; */
+  font-size: 16px;
+  /* outline: 10px solid red; */
+}
+[type="submit"]{
+  width: 100px;
+  height: 40px;
+  background: #3385ff;
+  color: white;
+  border: none;
+  padding: 0px;
+  font-size: 16px;
+  /* vertical-align: bottom; */
+  float: left;
+}
+.soutu-btn {
+  float: right;
+  width: 18px;
+  height: 16px;
+  margin: 12px 6px;
+  background: white url(images/camera.png) no-repeat;
+}
+.soutu-btn:hover{
+  background: white url(images/camera.png) no-repeat 0px -20px;
+}
